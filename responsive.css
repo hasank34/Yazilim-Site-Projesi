@@ -1,0 +1,134 @@
+@media screen and (max-width:770px) {
+    .navbar{
+        width: 90%;
+    }
+
+    .logo h2 a{
+        font-size: 20px;
+    }
+
+    #menu_bar{
+        display: grid;
+        color: #fff;
+        position: absolute;
+        right: 5%;
+        top: 20%;
+        border: 1px solid #fff;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+
+    }
+
+
+    .nav_links{
+        flex-direction: column;
+        position: absolute;
+        background: #24292d;
+        width: 100%;
+        left: 0;
+        padding: 0;
+    }
+
+    .nav_links li a{
+        border-bottom: 1px solid #fff;
+        display: block;
+        border-radius: 0;
+        padding: 10px 0;
+        margin: 0 20px;
+    
+    }
+
+
+    .nav_links li:last-child a{
+        border-bottom: none;
+    }
+
+    .inner_home{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+
+    .child_home{
+        flex-basis: 100%;
+    }
+
+    .child_home:last-child{
+        margin-bottom: 20px;
+
+    }
+
+    .child_home h1{
+        font-size: 30px;
+        line-height: 35px;
+
+    }
+    .child_home p{
+        font-size: 20px;
+
+    }
+
+    .innersoftware_child{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_courses{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_achivement{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+
+    }
+
+    .single_detail{
+        flex-basis: 100%;
+
+
+    }
+
+    .child_achivement .sd_3{
+        margin-bottom: 20px;
+
+    }
+
+    .child_testi{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+    .child_testi:last-child{
+        margin-bottom: 0;
+
+    }
+
+    .child_contact{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+    .child_footer{
+        flex-basis: 100%;
+        margin-bottom: 30px;
+    }
+
+    .child_footer h3{
+        margin-bottom: 10px;
+
+    }
+
+    .child_footer{
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+
+
+
+
+
+}
